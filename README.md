@@ -3,7 +3,7 @@
 Welcome to my personal portfolio.
 Here I present my projects, skills, and experience in web development.
 
-## 🖼️ Vista previa
+## 🖼️ Preview
 ![Portfolio Preview](assets/imgs/preview.png)
 
 ![Portfolio Preview 2](assets/imgs/preview_n2.png)
