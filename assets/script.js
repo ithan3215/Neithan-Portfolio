@@ -159,7 +159,7 @@ miniBox.forEach(box => {
 });
 
 
-fetch("/data/projects.json")
+fetch("./data/projects.json")
   .then(a => a.json())
   .then(data => {
     const container = document.getElementById("cards-container");
