@@ -6,7 +6,7 @@ Here I present my projects, skills, and experience in web development.
 ## 🖼️ Vista previa
 ![Portfolio Preview](assets/imgs/preview.png)
 
-![Portfolio Preview 2](assets/imgs/preview2.png)
+![Portfolio Preview 2](assets/imgs/preview_2.png)
 
 ## 🚀 Live Demo
 👉 [https://ithan3215.github.io/portfolio](https://ithan3215.github.io/Neithan-Portfolio)
