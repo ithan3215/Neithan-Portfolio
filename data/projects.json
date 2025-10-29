@@ -1,0 +1,10 @@
+[
+    {
+        "name": "ToDo App",
+        "description": "A clean and intuitive TodoApp, with features like task filtering, and persistent storage.",
+        "link_git": "https://github.com/ithan3215/Basic-To-Do",
+        "link_live": "https://github.com/ithan3215/Basic-To-Do",
+        "images": ["assets/imgs/todoImgs/todo1.png", "assets/imgs/todoImgs/todo2.png", "assets/imgs/todoImgs/todo3.png"],
+        "languages": ["JS","HTML", "CSS", "BS"] 
+    }
+]
