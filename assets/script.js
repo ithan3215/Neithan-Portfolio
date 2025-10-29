@@ -23,7 +23,7 @@ document.querySelectorAll("[data-key]").forEach(el => {
 
 async function setLanguage(lang) {
   if (lang === "es") {
-    const res = await fetch("/data/lang/es.json")
+    const res = await fetch("./data/lang/es.json")
     const texts = await res.json()
 
     document.querySelectorAll("[data-key]").forEach(el => {
