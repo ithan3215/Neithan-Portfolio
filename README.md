@@ -9,7 +9,7 @@ Here I present my projects, skills, and experience in web development.
 ![Portfolio Preview 2](assets/imgs/preview_n2.png)
 
 ## 🚀 Live Demo
-👉 [https://ithan3215.github.io/portfolio](https://ithan3215.github.io/Neithan-Portfolio)
+👉 [Live Demo Portfolio](https://ithan3215.github.io/Neithan-Portfolio/)
 
 ## 📧 Contact
 - **Email:** neithanomarbrito@gmail.com 
