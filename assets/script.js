@@ -10,8 +10,9 @@ const En_ES = document.getElementById("en_es")
 const buttonDisplay = document.querySelector(".button-display")
 const languageArrow = document.querySelector("#language-arrow")
 const quickButton = document.querySelector(".quick-button")
+const imgP = document.querySelector(".img0")
 
-let startTimer, endTimer
+let startTimer, endTimer, imageTimer
 let isTyping = false
 let isTyping_2 = true
 let firstEnter = false
@@ -53,6 +54,18 @@ icon.addEventListener('click', () => {
   menuLinks.classList.toggle("active")
   icon.classList.toggle("open")
 })
+
+function imageHover(){
+  imageTimer = setTimeout(() => {
+    imgP.classList.add("coco")
+  }, 600)
+  
+}
+
+function imageHoverLeave(){
+  clearTimeout(imageTimer)
+  imgP.classList.remove("coco")
+}
 
 function togglePixel() {
   pixelCircle.classList.toggle("hover")
@@ -204,7 +217,9 @@ fetch("./data/projects.json")
 
 
 
+imgP.addEventListener('mouseenter', imageHover)
 
+imgP.addEventListener('mouseleave', imageHoverLeave)
 
 pixelCircle.addEventListener("mouseenter", togglePixel)
 
