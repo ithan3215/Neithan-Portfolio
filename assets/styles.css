@@ -283,7 +283,7 @@ section{
 /*  About me Section    */
 .aboutme-section{
     animation: fadeDown 0.5s;
-    padding-top: 160px;
+    padding-top: 22.6vh;
 }
 .pixel-circle{
     width: 110px;
