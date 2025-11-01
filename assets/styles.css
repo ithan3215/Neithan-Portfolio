@@ -94,7 +94,7 @@ a:hover {
     rotate: 180deg;
 }
 #logo{
-    font-size: 4vh;
+    font-size: 27px;
     font-weight:lighter;
 }
 .page-links{
@@ -168,16 +168,18 @@ a:hover {
     transition: all 0.2s ease-in-out;
 }
 .show-more{
-    top: 75px;
+    top: 80%;
     z-index: 1;
     transition: 0.3s ease;
-    position: relative;
+    position: absolute;
     cursor: pointer;
     width: fit-content;
     height: 50px;
     font-size: 15px;
     font-family: 'Gill Sans MT';
     text-align: center;
+    transform: translateY(50%);
+    
     
 }
 .show-more::before{
@@ -325,7 +327,7 @@ section{
     height: 90vh;
     position: absolute;
     transform: translateX(5%)
-    translateY(-9.3%);
+    translateY(-9.2%);
     z-index: 0;
     right: 30px;
     bottom: 0;
@@ -406,6 +408,7 @@ section{
     font-size: 20px;
     font-family: Coda;
     color: var(--Janna);
+    margin-top: 8.5px;
 }
 
 .quick-button{
@@ -413,6 +416,7 @@ section{
     align-content: center;
     align-items: center;
     gap: 40px;
+    margin-top: 2.5vh;
 }
 .resume-button{
     background: var(--sanMarino);
@@ -807,7 +811,7 @@ section{
 }
 @media (max-width: 527px) {
     .show-more{
-        top: -35px;
+        top: 78%;
         left: 80%;
     }
 }
