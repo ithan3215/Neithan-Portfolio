@@ -112,10 +112,10 @@ function handleScreen(){
 }
   else{
     typed_1 = new Typed('#typed-1', {
-  strings: ['Further mastering', 'Leveling up!', 'Refining skills'],
+  strings: ['Further mastering...', 'Leveling up!', 'Refining skills'],
   typeSpeed: 75,
     backSpeed: 50,
-    shuffle: true,
+
     smartBackspace: false,
     loop: true,
 })
@@ -129,10 +129,9 @@ isTyping_2 = true
 
 if(window.innerWidth > 1249){
   typed_1 = new Typed('#typed-1', {
-  strings: ['Further mastering', 'Leveling up!', 'Refining skills'],
+  strings: ['Further mastering...', 'Leveling up!', 'Refining skills'],
   typeSpeed: 75,
     backSpeed: 50,
-    shuffle: true,
     smartBackspace: false,
     loop: true,
 })
