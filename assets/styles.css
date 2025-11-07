@@ -628,13 +628,14 @@ section{
 /* Card-content*/
 #cards-container{
     display: flex;
-    gap: 25px;
+    gap: 100px;
     padding: 0;
     width: 100%;
+    align-content: center;
 
 }
 .card{
-    width: 30rem;
+    width: 50%;
     transition: 0.25s ease;
     align-items: center;
     text-align: center;
@@ -764,8 +765,6 @@ section{
     display: none;              
     flex-direction: column;
     gap: 18px;
-    top: 60px;                  
-    right: 20px;
     background: rgba(255, 255, 255, 0.1);
     padding: 15px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.8);
@@ -780,9 +779,8 @@ section{
     border-radius: 12px;
     color: white;
     max-height: 400px;
+    z-index: 1000;
   }
-  
-
   
   .hamburger-icon{
     display: flex;
@@ -803,6 +801,7 @@ section{
     #cards-container{
         flex-direction: column;
         align-items: center;
+        gap: 30px;
     }
     .card{
         width: 75%;

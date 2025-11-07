@@ -18,9 +18,13 @@ let isTyping_2 = true
 let firstEnter = false
 
 const originalTexts = {};
+
 document.querySelectorAll("[data-key]").forEach(el => {
   originalTexts[el.getAttribute("data-key")] = el.textContent
 });
+
+
+
 
 async function setLanguage(lang) {
   if (lang === "es") {
@@ -197,7 +201,8 @@ fetch("./data/projects.json")
           </div>
           </div>
         </div>`;
-
+        originalTexts[`card-title-${index}`] = p.name;
+        originalTexts[`card-text-${index}`] = p.description;  
       let imgIndex = 0;
       setInterval(() => {
         let imgEl = document.getElementById(imagesId);
