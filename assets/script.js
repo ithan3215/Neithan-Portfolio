@@ -184,13 +184,13 @@ fetch("./data/projects.json")
         <div class="card bg-secondary">
           <img id="${imagesId}" src="${p.images[0]}" alt="${p.name}" class="card-img">
           <div class="card-body">
-          <h3 class="card-title">${p.name}</h3>
+          <h3 class="card-title" data-key="card-title-${index}">${p.name}</h3>
           <div id="programming-container">
           ${p.languages
     .map(ele => `<div class="programming-lan">${ele}</div>`)
     .join('')}
     </div>
-          <p data-key="card-text">${p.description}</p>
+          <p data-key="card-text-${index}">${p.description}</p>
           <div class="card-buttons-container">
           <a href="${p.link_git}"><button class="card-button-1" type="button"><i class="fa-brands fa-github"></i> GitHub</button></a>
           <a href="${p.link_live}"><button class="card-button-2" type="button"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</button></a>
@@ -207,8 +207,8 @@ fetch("./data/projects.json")
         imgIndex = (imgIndex + 1) % p.images.length;
         imgEl.src = p.images[imgIndex];
         imgEl.classList.remove("opac")
-        }, 500)
-      }, 4000);
+        }, 550)
+      }, 4500);
       
   });
 });

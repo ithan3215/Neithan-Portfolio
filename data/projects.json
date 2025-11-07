@@ -6,5 +6,13 @@
         "link_live": "https://github.com/ithan3215/Basic-To-Do",
         "images": ["assets/imgs/todoImgs/todo1.png", "assets/imgs/todoImgs/todo2.png", "assets/imgs/todoImgs/todo3.png"],
         "languages": ["JS","HTML", "CSS", "BS"] 
+    },
+    {
+        "name": "SmartEnergy Employee Manager",
+        "description": "Web application developed in ASP.NET Core with Entity Framework that allows managing employees of the company SmartEnergy through a CRUD system",
+        "link_git": "https://github.com/ithan3215/WebappTest",
+        "link_live": "https://github.com/ithan3215/WebappTest",
+        "images": ["assets/imgs/CRUDImgs/CRUD1.png", "assets/imgs/CRUDImgs/CRUD2.png", "assets/imgs/CRUDImgs/CRUD3.png"],
+        "languages": ["C#",".NET", "SQL","HTML", "CSS","JS" ] 
     }
 ]

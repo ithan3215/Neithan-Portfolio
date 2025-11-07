@@ -22,6 +22,9 @@
     "titulo-3":"Mis Proyectos",
     "subTitulo-4": "Intenta,",
     "titulo-4": "Contactarme",
-    "card-text": "Una aplicación de tareas limpia e intuitiva, con funciones como filtrado de tareas y almacenamiento persistente.",
+    "card-title-0": "ToDo App",
+    "card-title-1": "Manejo Empleados SmartEnergy",
+    "card-text-0": "Una aplicación de tareas limpia e intuitiva, con funciones como filtrado de tareas y almacenamiento persistente.",
+    "card-text-1": "Aplicación web desarrollada en ASP.NET Core con Entity Framework que permite gestionar empleados de la empresa SmartEnergy mediante un sistema CRUD",
     "language-name": "Español"
 }

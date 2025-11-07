@@ -462,8 +462,6 @@ section{
 .experience-section{
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 0 2px 6px rgba(0,0,0,0.8);
-    backdrop-filter: blur(10px);          
-    -webkit-backdrop-filter: blur(10px);
     border-top: 1.5px solid rgba(255, 255, 255, 0.2);
     border-bottom: 1.5px solid rgba(255, 255, 255, 0.2);
     
@@ -572,7 +570,7 @@ section{
     align-items: center;
     align-content: center;
     text-align: center;
-    transition: 0.35s ease;
+    transition: 0.25s ease;
     
 }
 .mini-box:hover{
@@ -595,6 +593,7 @@ section{
     animation: text-appear both;
     animation-timeline: view();
     animation-range: entry 20% cover 100vh;
+    
 }
 .project-title{
     position: relative;
@@ -627,7 +626,13 @@ section{
 
 
 /* Card-content*/
+#cards-container{
+    display: flex;
+    gap: 25px;
+    padding: 0;
+    width: 100%;
 
+}
 .card{
     width: 30rem;
     transition: 0.25s ease;
@@ -639,6 +644,7 @@ section{
     background: #83a4d4;
     box-shadow: 5px 5px 2px 7px rgba(0, 0, 0, 0.24);
     bottom: 5px;
+    
 }
 .card-body{
     width: 100%;
@@ -794,6 +800,13 @@ section{
   .card{
     width: 25rem;
     }
+    #cards-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 75%;
+    }
   
     
 }
@@ -807,6 +820,9 @@ section{
   }
   .contact-box{
     font-size: 16px;
+  }
+  .card{
+    width: auto;
   }
 }
 @media (max-width: 527px) {
